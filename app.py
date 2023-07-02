@@ -6,7 +6,7 @@ import tensorflow as tf
 from tensorflow.keras.models import load_model
 from tensorflow.keras.optimizers import Adam
 
-model = load_model('project\hdr_model.h5', custom_objects={'Adam': Adam})
+model = load_model('./project/hdr_model.h5', custom_objects={'Adam': Adam})
 img_size = 28
 
 
